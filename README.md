@@ -71,7 +71,7 @@ The engagement followed a structured **grey-box testing methodology** aligned wi
 
 | ID | Finding Title | Severity | CWE | Affected Levels |
 | :--- | :--- | :--- | :--- | :--- |
-| [VULN-01](findings/VULN-01-brute-force.md) | Insufficient Authentication Controls Allow Automated Credential Brute-Force | **High** | [CWE-307](https://cwe.mitre.org/data/definitions/307.html) | Low, Medium, High |
+| [VULN-01](findings/VULN-01-Insufficient-Authentication-Controls.md) | Insufficient Authentication Controls Allow Automated Credential Brute-Force | **High** | [CWE-307](https://cwe.mitre.org/data/definitions/307.html) | Low, Medium, High |
 | [VULN-02](findings/VULN-02-credential-exposure-get.md) | Authentication Credentials Exposed Through HTTP GET Query Parameters | **Low** | [CWE-598](https://cwe.mitre.org/data/definitions/598.html) | Low, Medium, High |
 | [VULN-03](findings/VULN-03-weak-password-hashing-md5.md) | Weak Password Storage Using Unsalted MD5 Hashing | **Low** | [CWE-916](https://cwe.mitre.org/data/definitions/916.html), [CWE-759](https://cwe.mitre.org/data/definitions/759.html) | Low, Medium, High, Impossible |
 | [VULN-04](findings/VULN-04-cleartext-transmission-http.md) | Cleartext Transmission of Sensitive Information Over HTTP | **Low** | [CWE-319](https://cwe.mitre.org/data/definitions/319.html) | Low, Medium, High, Impossible |
